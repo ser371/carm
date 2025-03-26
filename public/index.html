@@ -1,760 +1,863 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta
+      name="description"
+      content="A C-Arm is a specialized medical imaging device used primarily in orthopedic, surgical, and emergency care settings. It derives its name from its distinctive C-shaped arm, which connects the X-ray source and detector, allowing for flexible positioning and real-time fluoroscopic imaging."
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <meta name="description"
-    content="A C-Arm is a specialized medical imaging device used primarily in orthopedic, surgical, and emergency care settings. It derives its name from its distinctive C-shaped arm, which connects the X-ray source and detector, allowing for flexible positioning and real-time fluoroscopic imaging." />
+    <title>Panacee C-Arm Solutions </title>
 
-  <title>Panacee C-Arm Solutions </title>
+    <!-- Stylesheets -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/responsive.css" rel="stylesheet" />
+    <link href="./assets/css/animate.css" rel="stylesheet" />
+    <link href="./assets/css/aos.css" rel="stylesheet" />
+    <link href="./assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="./assets/css/flaticon.css" rel="stylesheet" />
+    <link href="./assets/css/font-awesome-all.css" rel="stylesheet" />
+    <link href="./assets/css/owl.css" rel="stylesheet" />
+    <link href="./assets/css/owl.video.play.html" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="./assets/images/FaviconCompany.svg"
+      type="image/x-icon"
+    />
+  </head>
 
-  <!-- Stylesheets -->
-  <link href="./assets/css/style.css" rel="stylesheet" />
-  <link href="./assets/css/responsive.css" rel="stylesheet" />
-  <link href="./assets/css/animate.css" rel="stylesheet" />
-  <link href="./assets/css/aos.css" rel="stylesheet" />
-  <link href="./assets/css/bootstrap.css" rel="stylesheet" />
-  <link href="./assets/css/flaticon.css" rel="stylesheet" />
-  <link href="./assets/css/font-awesome-all.css" rel="stylesheet" />
-  <link href="./assets/css/owl.css" rel="stylesheet" />
-  <link href="./assets/css/owl.video.play.html" rel="stylesheet" />
-  <link rel="icon" href="./assets/images/FaviconCompany.svg" type="image/x-icon" />
-</head>
+  <!-- page wrapper -->
+  <div id="root"></div>
 
-<!-- page wrapper -->
-<div id="root"></div>
+  <body class="boxed_wrapper">
+    <!-- preloader -->
+    <div class="preloader"></div>
+    <!-- preloader -->
 
-<body class="boxed_wrapper">
-  <!-- preloader -->
-  <div class="preloader"></div>
-  <!-- preloader -->
-
-  <!-- search-box-layout -->
-  <div class="wraper_flyout_search">
-    <div class="table">
-      <div class="table-cell">
-        <div class="flyout-search-layer"></div>
-        <div class="flyout-search-layer"></div>
-        <div class="flyout-search-layer"></div>
-        <div class="flyout-search-close">
-          <span class="flyout-search-close-line"></span>
-          <span class="flyout-search-close-line"></span>
-        </div>
-        <div class="flyout_search">
-          <div class="flyout-search-title">
-            <h4>Search</h4>
+    <!-- search-box-layout -->
+    <div class="wraper_flyout_search">
+      <div class="table">
+        <div class="table-cell">
+          <div class="flyout-search-layer"></div>
+          <div class="flyout-search-layer"></div>
+          <div class="flyout-search-layer"></div>
+          <div class="flyout-search-close">
+            <span class="flyout-search-close-line"></span>
+            <span class="flyout-search-close-line"></span>
           </div>
-          <div class="flyout-search-bar">
-            <form role="search" method="get" action="#">
-              <div class="form-row">
-                <input type="search" placeholder="Type to search..." value="" name="s" required="" />
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- search-box-layout end -->
-
-  <!-- main header -->
-  <header class="main-header style-seven style-eight">
-    <!-- header-upper -->
-    <div class="header-upper">
-      <div class="container">
-        <div class="inner-container clearfix">
-          <div class="left-content pull-left">
-            <figure class="logo-box">
-              <a href="index.html"><img src="./assets/images/LogoWp1.webp" alt="logo big" /></a>
-            </figure>
-          </div>
-          <div class="right-content pull-right">
-            <div class="info-box">
-              <div class="icon-box"><i class="flaticon-telephone"></i></div>
-              <h3><a href="tel:+91 9650900190">+91 9650900190</a></h3>
-              <div class="text">Call for any Support</div>
+          <div class="flyout_search">
+            <div class="flyout-search-title">
+              <h4>Search</h4>
             </div>
-            <div class="info-box">
-              <div class="icon-box"><i class="flaticon-placeholder"></i></div>
-              <h3>Janakpuri, Delhi, India</h3>
-              <div class="text">Main Office location</div>
-            </div>
-            <ul class="social-list">
-              <li>
-                <a><i class="fab fa-skype"></i></a>
-              </li>
-              <li>
-                <a><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a><i class="fab fa-pinterest-p"></i></a>
-              </li>
-              <li>
-                <a><i class="fab fa-linkedin-in"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- header-upper end -->
-
-    <!-- header-bottom -->
-    <div class="header-bottom">
-      <div class="container">
-        <div class="outer-container">
-          <div class="nav-outer clearfix">
-            <div class="menu-area pull-left clearfix">
-              <nav class="main-menu navbar-expand-lg">
-                <div class="navbar-header">
-                  <!-- Toggle Button -->
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
+            <div class="flyout-search-bar">
+              <form role="search" method="get" action="#">
+                <div class="form-row">
+                  <input
+                    type="search"
+                    placeholder="Type to search..."
+                    value=""
+                    name="s"
+                    required=""
+                  />
+                  <button type="submit"><i class="fa fa-search"></i></button>
                 </div>
-                <div class="navbar-collapse collapse clearfix">
-                  <ul class="navigation clearfix">
-                    <li>
-                      <a>Home</a>
-                    </li>
-
-                    <li class="dropdown">
-                      <a>Blog</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            <div class="info-box pull-right clearfix">
-              <div class="btn-box">
-                <a>Get Free Quote<i class="fas fa-arrow-right"></i></a>
-              </div>
-              <div class="search-box">
-                <div class="header-flyout-searchbar">
-                  <i class="fa fa-search"></i>
-                </div>
-              </div>
-              <div class="shop-cart">
-                <a href="shop.html"><i class="flaticon-shopping-bag"></i><span>0</span></a>
-              </div>
-              <div class="nav-box">
-                <div class="nav-btn nav-toggler navSidebar-button clearfix">
-                  <span class="icon"></span>
-                  <span class="icon"></span>
-                  <span class="icon"></span>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- header-bottom end -->
+    <!-- search-box-layout end -->
 
-    <!--sticky Header-->
-    <div class="sticky-header">
-      <div class="container clearfix">
-        <figure class="logo-box">
-          <a href="index-2.html"><img src="./assets/images/Logopng2.webp" alt="small logo" /></a>
-        </figure>
-        <div class="menu-area">
-          <nav class="main-menu navbar-expand-lg">
-            <div class="navbar-header">
-              <!-- Toggle Button -->
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+    <!-- main header -->
+    <header class="main-header style-seven style-eight">
+      <!-- header-upper -->
+      <div class="header-upper">
+        <div class="container">
+          <div class="inner-container clearfix">
+            <div class="left-content pull-left">
+              <figure class="logo-box">
+                <a href="index.html"
+                  ><img src="./assets/images/LogoWp1.webp" alt="logo big"
+                /></a>
+              </figure>
             </div>
-            <div class="navbar-collapse collapse clearfix">
-              <ul class="navigation clearfix">
-                <li class="current dropdown">
-                  <a style="color: black">Home</a>
+            <div class="right-content pull-right">
+              <div class="info-box">
+                <div class="icon-box"><i class="flaticon-telephone"></i></div>
+                <h3><a href="tel:+91 9650900190">+91 9650900190</a></h3>
+                <div class="text">Call for any Support</div>
+              </div>
+              <div class="info-box">
+                <div class="icon-box"><i class="flaticon-placeholder"></i></div>
+                <h3>Janakpuri, Delhi, India</h3>
+                <div class="text">Main Office location</div>
+              </div>
+              <ul class="social-list">
+                <li>
+                  <a href="#"><i class="fab fa-skype"></i></a>
                 </li>
-
-                <li class="dropdown">
-                  <a style="color: black">Blog</a>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
-                <li class="dropdown">
-                  <a href="contact.html" style="color: black">Contact</a>
+                <li>
+                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </li>
               </ul>
             </div>
-          </nav>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- sticky-header end -->
-  </header>
-  <!-- main-header end -->
+      <!-- header-upper end -->
 
-  <!-- main-slider -->
-  <section class="slider-style-seven home-8">
-    <div class="main-slider-carousel-2 owl-carousel owl-theme">
-      <div class="slide" style="
-            background-image: url(./assets/images/steptodown.com826074.jpg);
-          ">
+      <!-- header-bottom -->
+      <div class="header-bottom">
         <div class="container">
-          <div class="content-box">
-            <h5>Medical</h5>
-            <h1>
-              Precision <br />
-              Imaging with Advanced C-Arm Machines
-            </h1>
-            <div class="text">
-              Cutting-edge technology ensuring clear, detailed imaging for
-              optimal clinical outcomes.
-            </div>
-            <div class="btn-box"><a>explore products</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="slide" style="
-            background-image: url(./assets/images/steptodown.com155519.jpg);
-          ">
-        <div class="container">
-          <div class="content-box">
-            <h5>Medical</h5>
-            <h1>
-              Cutting-Edge <br />
-              C-Arm Machines for Precise Imaging
-            </h1>
-            <div class="text">
-              Innovative C-arm solutions providing real-time, high-definition
-              imaging for surgical precision.
-            </div>
-            <div class="btn-box"><a>explore products</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="slide" style="
-            background-image: url(./assets/images/steptodown.com899618.jpg);
-          ">
-        <div class="container">
-          <div class="content-box">
-            <h5>Medical</h5>
-            <h1>
-              Advanced <br />
-              C-Arm Machines for Precision Imaging
-            </h1>
-            <div class="text">
-              Delivering high-resolution imaging for enhanced diagnostic
-              accuracy and patient care.
-            </div>
-            <div class="btn-box"><a>explore products</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- main-slider end -->
+          <div class="outer-container">
+            <div class="nav-outer clearfix">
+              <div class="menu-area pull-left clearfix">
+                <nav class="main-menu navbar-expand-lg">
+                  <div class="navbar-header">
+                    <!-- Toggle Button -->
+                    <button
+                      type="button"
+                      class="navbar-toggle"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                    >
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div class="navbar-collapse collapse clearfix">
+                    <ul class="navigation clearfix">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
 
-  <!-- fabrics-section -->
-  <section class="fabrics-section home-8">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 carousel-column">
-          <div class="single-item-carousel owl-carousel owl-theme">
-            <figure class="slide-item">
-              <img src="./assets/images/img1.jpeg" alt="" />
-            </figure>
-            <figure class="slide-item">
-              <img src="./assets/images/img1.jpeg" alt="" />
-            </figure>
-            <figure class="slide-item">
-              <img src="./assets/images/img1.jpeg" alt="" />
-            </figure>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-          <div class="content-box">
-            <div class="top-text">Small products, big future.</div>
-            <h2 class="font-weight-bold">
-              We Provide You The Premium C-Arm Technology for Precision
-              Imaging.
-            </h2>
-            <div class="bold-text">
-              we specialize in high-quality C-Arm machines designed to enhance
-              surgical precision and diagnostic accuracy.
-            </div>
-            <div class="text">
-              Our state-of-the-art fluoroscopy systems provide real-time
-              imaging, ensuring seamless performance in orthopedics,
-              cardiology, neurosurgery, and emergency procedures.
-            </div>
-            <div class="btn-box"><a>Read more</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- fabrics-section end -->
-
-  <!-- intro-style-five -->
-  <section class="intro-style-five centred">
-    <div class="container">
-      <div class="title-box">
-        <h2>Panacee Software Solution Providing Innovative Solution</h2>
-        <p>
-          Panacee software solution provides innovative equipment, designed
-          and manufactured by visionary, professional and experienced experts.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-          <div class="single-item wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <div class="icon-box"><i class="flaticon-serum"></i></div>
-            <h3><a>C-Arm</a></h3>
-            <div class="text">
-              A medical imaging device used for fluoroscopy during surgical
-              and diagnostic procedures.
-            </div>
-            <div class="btn-box"><a>Explore</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-          <div class="single-item wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-            <div class="icon-box"><i class="flaticon-dropper"></i></div>
-            <h3>
-              <a href="https://mammography.panaceesoftwaresolutions.com/">Mammography</a>
-            </h3>
-            <div class="text">
-              A specialized X-ray imaging technique used for breast cancer
-              screening and diagnosis.
-            </div>
-            <div class="btn-box">
-              <a href="https://mammography.panaceesoftwaresolutions.com/">Explore</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- intro-style-five end -->
-
-  <!-- intro-style-six -->
-  <section class="intro-style-six" style="background-image: url(./assets/images/background/intro-bg-3.jp=)">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-          <div class="content-box">
-            <div class="top-box">
-              <h2>Panacee Software Solution provides equipment solutions</h2>
-              <div class="text">
-                <!-- <p>
-                  Designed and manufactured in India, the award-winning
-                  Q-Flow™ is the light of choice for every surgical team
-                </p> -->
-                <p>
-                  A C-Arm machine is a versatile medical imaging device used
-                  primarily for real-time fluoroscopy in surgical, orthopedic,
-                  and interventional procedures. It features high-resolution
-                  imaging capabilities with both fluoroscopy and radiography
-                  modes, allowing surgeons to visualize internal structures
-                  with clarity. Modern C-Arms come equipped with either a flat
-                  panel detector (FPD) or an image intensifier, ensuring
-                  high-quality digital images while minimizing radiation
-                  exposure.
-                </p>
+                      <li class="dropdown">
+                        <a href="#">Blog</a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
               </div>
-              <h3>Create a modern and safe environment for your patients</h3>
-            </div>
-            <div class="lower-box wow fadeInLeft animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-              <div class="video-box">
-                <a href="" class="lightbox-image" data-caption=""><i class="flaticon-play-button"></i></a>
-              </div>
-              <div class="inner-content">
-                <h3>Worldwide Medical C-Arm Equipment Supplier</h3>
-                <p>
-                  All of your Worldwide Medical C-Arm Equipment Supplier needs
-                  on one place. Your one stop store offering new, refurbished,
-                  and used \Medical Equipment.C-Arm and Mammography.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-          <figure class="image-box wow fadeInRight animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <img src="./assets/images/ZiehmSoloFDmobileCarm.jpg" alt="" />
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- intro-style-six end -->
-
-  <!-- product-section -->
-  <section class="product-section centred">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 product-block mt-5">
-          <div class="product-block-one wow fadeInUp animated animated" data-wow-delay="00ms">
-            <div class="inner-box">
-              <figure class="image-box">
-                <img src="./assets/images/C-arm-machine - Copy1.jpg" alt="" />
-              </figure>
-              <div class="content-box">
-                <a href="shop-single.html"> C-Arm</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 product-block mt-5">
-          <div class="product-block-one wow fadeInUp animated animated" data-wow-delay="600ms">
-            <div class="inner-box">
-              <figure class="image-box">
-                <img src="./assets/images/memmo.png" alt="" />
-              </figure>
-              <div class="content-box">
-                <a href="shop-single.html">Mammography</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- product-section end -->
-
-  <!-- medical-shop -->
-  <section class="medical-shop">
-    <div class="container">
-      <div class="title-box centred">
-        <div class="top-text">Medical Product</div>
-        <h2 class="font-weight-bold">Medical equipment</h2>
-        <p>
-          We are continually adding new products, expanding our referral
-          sources, and increasing<br />profits so that we can continue the
-          growth
-        </p>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="inner-content">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-            <div class="single-item">
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="./assets/images/visual_img1_3.png" alt="" />
-                </figure>
-                <div class="content-box">
-                  <h4><a href="shop-single.html">C-Arm</a></h4>
-                  <div class="text">12 Product</div>
+              <div class="info-box pull-right clearfix">
+                <div class="btn-box">
+                  <a href="#"
+                    >Get Free Quote<i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="overlay-box">
-                  <div class="box">
-                    <div class="view-btn">
-                      <a href="./assets/images/pro1.jpg" class="lightbox-image" data-fancybox="gallery"><i
-                          class="flaticon-add"></i></a>
-                    </div>
-                    <h4><a href="shop-single.html">C-Arm</a></h4>
-                    <div class="text">15 Product</div>
+                <div class="search-box">
+                  <div class="header-flyout-searchbar">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                <div class="shop-cart">
+                  <a href="shop.html"
+                    ><i class="flaticon-shopping-bag"></i><span>0</span></a
+                  >
+                </div>
+                <div class="nav-box">
+                  <div class="nav-btn nav-toggler navSidebar-button clearfix">
+                    <span class="icon"></span>
+                    <span class="icon"></span>
+                    <span class="icon"></span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- header-bottom end -->
+
+      <!--sticky Header-->
+      <div class="sticky-header">
+        <div class="container clearfix">
+          <figure class="logo-box">
+            <a href="index-2.html"
+              ><img src="./assets/images/Logopng2.webp" alt="small logo"
+            /></a>
+          </figure>
+          <div class="menu-area">
+            <nav class="main-menu navbar-expand-lg">
+              <div class="navbar-header">
+                <!-- Toggle Button -->
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="navbar-collapse collapse clearfix">
+                <ul class="navigation clearfix">
+                  <li class="current dropdown">
+                    <a href="#" style="color: black">Home</a>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#" style="color: black">Blog</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="contact.html" style="color: black">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- sticky-header end -->
+    </header>
+    <!-- main-header end -->
+
+    <!-- main-slider -->
+    <section class="slider-style-seven home-8">
+      <div class="main-slider-carousel-2 owl-carousel owl-theme">
+        <div
+          class="slide"
+          style="
+            background-image: url(./assets/images/steptodown1.webp);
+          "
+        >
+          <div class="container">
+            <div class="content-box">
+              <h5>Medical</h5>
+              <h1>
+                Precision <br />
+                Imaging with Advanced C-Arm Machines
+              </h1>
+              <div class="text">
+                Cutting-edge technology ensuring clear, detailed imaging for
+                optimal clinical outcomes.
+              </div>
+              <div class="btn-box"><a href="#">explore products</a></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url(./assets/images/steptodown2.webp);
+          "
+        >
+          <div class="container">
+            <div class="content-box">
+              <h5>Medical</h5>
+              <h1>
+                Cutting-Edge <br />
+                C-Arm Machines for Precise Imaging
+              </h1>
+              <div class="text">
+                Innovative C-arm solutions providing real-time, high-definition
+                imaging for surgical precision.
+              </div>
+              <div class="btn-box"><a href="#">explore products</a></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url(./assets/images/steptodown3.webp);
+          "
+        >
+          <div class="container">
+            <div class="content-box">
+              <h5>Medical</h5>
+              <h1>
+                Advanced <br />
+                C-Arm Machines for Precision Imaging
+              </h1>
+              <div class="text">
+                Delivering high-resolution imaging for enhanced diagnostic
+                accuracy and patient care.
+              </div>
+              <div class="btn-box"><a href="#">explore products</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main-slider end -->
+
+    <!-- fabrics-section -->
+    <section class="fabrics-section home-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 carousel-column">
+            <div class="single-item-carousel owl-carousel owl-theme">
+              <figure class="slide-item">
+                <img src="./assets/images/img1.webp" alt="" />
+              </figure>
+              <figure class="slide-item">
+                <img src="./assets/images/img1.webp" alt="" />
+              </figure>
+              <figure class="slide-item">
+                <img src="./assets/images/img1.webp" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div class="content-box">
+              <div class="top-text">Small products, big future.</div>
+              <h1>
+                We Provide You The Premium C-Arm Technology for Precision
+                Imaging.
+              </h1>
+              <div class="bold-text">
+                we specialize in high-quality C-Arm machines designed to enhance
+                surgical precision and diagnostic accuracy.
+              </div>
+              <div class="text">
+                Our state-of-the-art fluoroscopy systems provide real-time
+                imaging, ensuring seamless performance in orthopedics,
+                cardiology, neurosurgery, and emergency procedures.
+              </div>
+              <div class="btn-box"><a href="#">Read more</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fabrics-section end -->
+
+    <!-- intro-style-five -->
+    <section class="intro-style-five centred">
+      <div class="container">
+        <div class="title-box">
+          <h2>Panacee Software Solution Providing Innovative Solution</h2>
+          <p>
+            Panacee software solution provides innovative equipment, designed
+            and manufactured by visionary, professional and experienced experts.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+            <div
+              class="single-item wow fadeInUp animated animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <div class="icon-box"><i class="flaticon-serum"></i></div>
+              <h3><a href="#">C-Arm</a></h3>
+              <div class="text">
+                A medical imaging device used for fluoroscopy during surgical
+                and diagnostic procedures.
+              </div>
+              <div class="btn-box"><a href="#">Explore</a></div>
+            </div>
+          </div>
 
           <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-            <div class="single-item">
+            <div
+              class="single-item wow fadeInUp animated animated"
+              data-wow-delay="600ms"
+              data-wow-duration="1500ms"
+            >
+              <div class="icon-box"><i class="flaticon-dropper"></i></div>
+              <h3>
+                <a href="https://mammography.panaceesoftwaresolutions.com/"
+                  >Mammography</a
+                >
+              </h3>
+              <div class="text">
+                A specialized X-ray imaging technique used for breast cancer
+                screening and diagnosis.
+              </div>
+              <div class="btn-box">
+                <a href="https://mammography.panaceesoftwaresolutions.com/"
+                  >Explore</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro-style-five end -->
+
+    <!-- intro-style-six -->
+    <section
+      class="intro-style-six"
+      style="background-image: url(./assets/images/background/intro-bg-3.jp=)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div class="content-box">
+              <div class="top-box">
+                <h2>Panacee Software Solution provides equipment solutions</h2>
+                <div class="text">
+                  <!-- <p>
+                  Designed and manufactured in India, the award-winning
+                  Q-Flow™ is the light of choice for every surgical team
+                </p> -->
+                  <p>
+                    A C-Arm machine is a versatile medical imaging device used
+                    primarily for real-time fluoroscopy in surgical, orthopedic,
+                    and interventional procedures. It features high-resolution
+                    imaging capabilities with both fluoroscopy and radiography
+                    modes, allowing surgeons to visualize internal structures
+                    with clarity. Modern C-Arms come equipped with either a flat
+                    panel detector (FPD) or an image intensifier, ensuring
+                    high-quality digital images while minimizing radiation
+                    exposure.
+                  </p>
+                </div>
+                <h3>Create a modern and safe environment for your patients</h3>
+              </div>
+              <div
+                class="lower-box wow fadeInLeft animated animated"
+                data-wow-delay="00ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="video-box">
+                  <a href="" class="lightbox-image" data-caption=""
+                    ><i class="flaticon-play-button"></i
+                  ></a>
+                </div>
+                <div class="inner-content">
+                  <h3>Worldwide Medical C-Arm Equipment Supplier</h3>
+                  <p>
+                    All of your Worldwide Medical C-Arm Equipment Supplier needs
+                    on one place. Your one stop store offering new, refurbished,
+                    and used \Medical Equipment.C-Arm and Mammography.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+            <figure
+              class="image-box wow fadeInRight animated animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <img src="./assets/images/ZiehmSoloFDmobileCarm.webp" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro-style-six end -->
+
+    <!-- product-section -->
+    <section class="product-section centred">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 product-block mt-5">
+            <div
+              class="product-block-one wow fadeInUp animated animated"
+              data-wow-delay="00ms"
+            >
               <div class="inner-box">
                 <figure class="image-box">
-                  <img src="./assets/images/pro2.png" alt="" />
+                  <img src="./assets/images/C-arm-machine.webp" alt="" />
                 </figure>
                 <div class="content-box">
-                  <h4>
-                    <a href="shop-single.html">Mammography</a>
-                  </h4>
-                  <div class="text">20 Product</div>
+                  <a href="shop-single.html"> C-Arm</a>
                 </div>
-                <div class="overlay-box">
-                  <div class="box">
-                    <div class="view-btn">
-                      <a href="./assets/images/pro2.png" class="lightbox-image" data-fancybox="gallery"><i
-                          class="flaticon-add"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 product-block mt-5">
+            <div
+              class="product-block-one wow fadeInUp animated animated"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="./assets/images/memmo.webp" alt="" />
+                </figure>
+                <div class="content-box">
+                  <a href="shop-single.html">Mammography</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product-section end -->
+
+    <!-- medical-shop -->
+    <section class="medical-shop">
+      <div class="container">
+        <div class="title-box centred">
+          <div class="top-text">Medical Product</div>
+          <h1>Medical equipment</h1>
+          <p>
+            We are continually adding new products, expanding our referral
+            sources, and increasing<br />profits so that we can continue the
+            growth
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="inner-box">
+                  <figure class="image-box">
+                    <img src="./assets/images/visual_img.webp" alt="" />
+                  </figure>
+                  <div class="content-box">
+                    <h4><a href="shop-single.html">C-Arm</a></h4>
+                    <div class="text">12 Product</div>
+                  </div>
+                  <div class="overlay-box">
+                    <div class="box">
+                      <div class="view-btn">
+                        <a
+                          href="./assets/images/visual_img.webp"
+                          class="lightbox-image"
+                          data-fancybox="gallery"
+                          ><i class="flaticon-add"></i
+                        ></a>
+                      </div>
+                      <h4><a href="shop-single.html">C-Arm</a></h4>
+                      <div class="text">15 Product</div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+              <div class="single-item">
+                <div class="inner-box">
+                  <figure class="image-box">
+                    <img src="./assets/images/pro2.webp" alt="" />
+                  </figure>
+                  <div class="content-box">
                     <h4>
                       <a href="shop-single.html">Mammography</a>
                     </h4>
                     <div class="text">20 Product</div>
                   </div>
+                  <div class="overlay-box">
+                    <div class="box">
+                      <div class="view-btn">
+                        <a
+                          href="./assets/images/pro2.webp"
+                          class="lightbox-image"
+                          data-fancybox="gallery"
+                          ><i class="flaticon-add"></i
+                        ></a>
+                      </div>
+                      <h4>
+                        <a href="shop-single.html">Mammography</a>
+                      </h4>
+                      <div class="text">20 Product</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="lower-content wow fadeInUp animated animated" data-wow-delay="00ms">
-        <h3>
-          We are committed to providing patients with superior equipment to
-          meet their medical needs, while maintaining
-        </h3>
-        <p>
-          We are continually adding new products, expanding ourreferral
-          sources, and increasing profits so that we can continue the growth
-          we have experienced in the past twenty years
-        </p>
-        <a href="shop.html">View Products</a>
-      </div>
-    </div>
-  </section>
-  <!-- medical-shop end -->
-
-  <!-- testimonial-style-seven -->
-  <section class="testimonial-style-seven centred">
-    <div class="container">
-      <div class="sec-title">
-        <!-- <div class="top-text">Client</div> -->
-        <h2 class="font-weight-bold">Real Experiences from Our Customers</h2>
-      </div>
-      <div class="single-item-carousel owl-carousel owl-theme">
-        <div class="testimonial-content">
-          <div class="inner-box">
-            <div class="text">
-              "I had an excellent experience. The selection of C-Arm machines
-              is impressive, with options that fit various budgets and medical
-              needs. The website is easy to navigate, and I found all the
-              details I needed to make an informed decision. I highly
-              recommend this site to anyone looking for high-quality C-Arm
-              machines at competitive prices!"
-            </div>
-            <div class="author-info">
-              <figure class="author-thumb">
-                <img src="./assets/images/resource/testimonial-2.png" alt="" />
-              </figure>
-              <h5>Dr. Charls</h5>
-              <span class="designation">Doc Charls FCA</span>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-content">
-          <div class="inner-box">
-            <div class="text">
-              "The layout is clean, and I had no trouble navigating through
-              the different C-Arm options. The product descriptions are
-              detailed, with clear specifications, pricing, and images, making
-              it easy to compare models. I also appreciate the educational
-              content that helps buyers understand the differences between
-              various C-Arm machines. A well-designed website that makes
-              shopping easy and informative!"
-            </div>
-            <div class="author-info">
-              <figure class="author-thumb">
-                <img src="./assets/images/resource/testimonial-3.png" alt="" />
-              </figure>
-              <h5>Leo Smith</h5>
-              <span class="designation">Doc Leo Smith FCA</span>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-content">
-          <div class="inner-box">
-            <div class="text">
-              "The search and filter options made it easy to find exactly what
-              I needed. Every product page had in-depth details, which saved
-              me from having to do extra research. Plus, the blog section
-              provided useful insights on C-Arm technology. Overall, a
-              professional and informative website that enhances the buying
-              experience!"
-            </div>
-            <div class="author-info">
-              <figure class="author-thumb">
-                <img src="./assets/images/resource/testimonial-4.png" alt="" />
-              </figure>
-              <h5>Ellie</h5>
-              <span class="designation">Doc Ellie FCA</span>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-content">
-          <div class="inner-box">
-            <div class="text">
-              "This website is one of the best I’ve seen for medical imaging
-              equipment. The content is well-structured, making it simple for
-              both first-time buyers and professionals to find relevant
-              information. The FAQs section answered most of my questions, and
-              the contact options were easy to find in case I needed extra
-              assistance. I felt confident browsing, thanks to the
-              transparency and attention to detail on this site!"
-            </div>
-            <div class="author-info">
-              <figure class="author-thumb">
-                <img src="./assets/images/resource/testimonial-5.png" alt="" />
-              </figure>
-              <h5>John</h5>
-              <span class="designation">Doc John FCA</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- testimonial-style-seven end -->
-
-  <!-- medical-equepment -->
-  <section class="medical-equepment">
-    <div class="container">
-      <div class="inner-container" style="
-            background-image: url(./assets/images/background/medical-equepment-bg.jpg);
-          ">
-        <div class="inner-box wow fadeInUp animated animated" data-wow-delay="00ms">
-          <h2 class="font-weight-bold">Global Supplier of C-Arm Imaging Solutions</h2>
-          <p class="mt-5">
-            We specialize in selling both full C-Arm machines and individual
-            parts, providing high-quality solutions for medical professionals
-            worldwide. Along with our products, we offer expert information
-            and guidance to help customers make informed decisions about their
-            C-Arm equipment needs.
+      <div class="container">
+        <div
+          class="lower-content wow fadeInUp animated animated"
+          data-wow-delay="00ms"
+        >
+          <h3>
+            We are committed to providing patients with superior equipment to
+            meet their medical needs, while maintaining
+          </h3>
+          <p>
+            We are continually adding new products, expanding ourreferral
+            sources, and increasing profits so that we can continue the growth
+            we have experienced in the past twenty years
           </p>
-          <a>C-Arm Imaging Solutions</a>
+          <a href="shop.html">View Products</a>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- medical-equepment end -->
+    </section>
+    <!-- medical-shop end -->
 
-  <!-- signup-section -->
-  <section class="signup-section">
-    <div class="container">
-      <div class="inner-container">
-        <div class="inner-box clearfix">
-          <div class="text pull-left">
-            <h5>Panacee Software Solution Providing Innovative Solutions</h5>
+    <!-- testimonial-style-seven -->
+    <section class="testimonial-style-seven centred">
+      <div class="container">
+        <div class="sec-title">
+          <!-- <div class="top-text">Client</div> -->
+          <h1>Real Experiences from Our Customers</h1>
+        </div>
+        <div class="single-item-carousel owl-carousel owl-theme">
+          <div class="testimonial-content">
+            <div class="inner-box">
+              <div class="text">
+                "I had an excellent experience. The selection of C-Arm machines
+                is impressive, with options that fit various budgets and medical
+                needs. The website is easy to navigate, and I found all the
+                details I needed to make an informed decision. I highly
+                recommend this site to anyone looking for high-quality C-Arm
+                machines at competitive prices!"
+              </div>
+              <div class="author-info">
+                <figure class="author-thumb">
+                  <img
+                    src="./assets/images/1.webp"
+                    alt=""
+                  />
+                </figure>
+                <h5>Dr. Charls</h5>
+                <span class="designation">Doc Charls FCA</span>
+              </div>
+            </div>
           </div>
-          <div class="btn-box pull-right"><a>Sign up</a></div>
+          <div class="testimonial-content">
+            <div class="inner-box">
+              <div class="text">
+                "The layout is clean, and I had no trouble navigating through
+                the different C-Arm options. The product descriptions are
+                detailed, with clear specifications, pricing, and images, making
+                it easy to compare models. I also appreciate the educational
+                content that helps buyers understand the differences between
+                various C-Arm machines. A well-designed website that makes
+                shopping easy and informative!"
+              </div>
+              <div class="author-info">
+                <figure class="author-thumb">
+                  <img
+                    src="./assets/images/1.webp"
+                    alt=""
+                  />
+                </figure>
+                <h5>Leo Smith</h5>
+                <span class="designation">Doc Leo Smith FCA</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="inner-box">
+              <div class="text">
+                "The search and filter options made it easy to find exactly what
+                I needed. Every product page had in-depth details, which saved
+                me from having to do extra research. Plus, the blog section
+                provided useful insights on C-Arm technology. Overall, a
+                professional and informative website that enhances the buying
+                experience!"
+              </div>
+              <div class="author-info">
+                <figure class="author-thumb">
+                  <img
+                    src="./assets/images/1.webp"
+                    alt=""
+                  />
+                </figure>
+                <h5>Ellie</h5>
+                <span class="designation">Doc Ellie FCA</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="inner-box">
+              <div class="text">
+                "This website is one of the best I’ve seen for medical imaging
+                equipment. The content is well-structured, making it simple for
+                both first-time buyers and professionals to find relevant
+                information. The FAQs section answered most of my questions, and
+                the contact options were easy to find in case I needed extra
+                assistance. I felt confident browsing, thanks to the
+                transparency and attention to detail on this site!"
+              </div>
+              <div class="author-info">
+                <figure class="author-thumb">
+                  <img
+                    src="./assets/images/1.webp"
+                    alt=""
+                  />
+                </figure>
+                <h5>John</h5>
+                <span class="designation">Doc John FCA</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- signup-section end -->
+    </section>
+    <!-- testimonial-style-seven end -->
 
-  <!-- main-footer -->
-  <footer class="main-footer style-five home-8">
-    <div class="container">
-      <div class="footer-top">
-        <div class="widget-section clearfix">
-          <div class="contact-widget footer-widget">
-            <h4 class="widget-title">Information</h4>
-            <div class="widget-content">
-              <div class="text">Janakpuri South</div>
-              <ul class="info-list">
-                <li>
-                  Email:
-                  <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                  Phone:
-                  <a href="tel:Phone:+8801682648101">+91 9650900190</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="links-widget company-widget footer-widget">
-            <h4 class="widget-title">Company</h4>
-            <div class="widget-content">
-              <ul>
-                <li><a href="https://carm.panaceesoftwaresolutions.com/contact.html">Contact Us</a></li>
-                <li><a>Product</a></li>
-                <li><a>Company</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Career</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="links-widget footer-widget">
-            <h4 class="widget-title">Products</h4>
-            <div class="widget-content">
-              <ul>
-                <li>
-                  <a href="https://mammography.panaceesoftwaresolutions.com/">Mammography</a>
-                </li>
-                <li><a>C-Arm</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="links-widget footer-widget">
-            <h4 class="widget-title">Support</h4>
-            <div class="widget-content">
-              <ul>
-                <li><a>Legal Information</a></li>
-                <li><a>Privacy Policy</a></li>
-                <li><a>Terms & Conditions</a></li>
-                <li><a>Report Abuse</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="social-widget footer-widget">
-            <h4 class="widget-title">Get the latest from</h4>
-            <ul class="social-links">
-              <li>
-                <a><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/company/panacee-software-solutions/"><i
-                    class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a><i class="fab fa-slack-hash"></i></a>
-              </li>
-              <li>
-                <a><i class="fab fa-dribbble"></i></a>
-              </li>
-            </ul>
+    <!-- medical-equepment -->
+    <section class="medical-equepment">
+      <div class="container">
+        <div
+          class="inner-container"
+          style="
+            background-image: url(./assets/images/medical-equepment-bg.webp);
+          "
+        >
+          <div
+            class="inner-box wow fadeInUp animated animated"
+            data-wow-delay="00ms"
+          >
+            <h1>Global Supplier of C-Arm Imaging Solutions</h1>
+            <p class="mt-5">
+              We specialize in selling both full C-Arm machines and individual
+              parts, providing high-quality solutions for medical professionals
+              worldwide. Along with our products, we offer expert information
+              and guidance to help customers make informed decisions about their
+              C-Arm equipment needs.
+            </p>
+            <a href="#">C-Arm Imaging Solutions</a>
           </div>
         </div>
       </div>
-      <div class="footer-bottom clearfix">
-        <figure class="footer-logo pull-left">
-          <a href="index-2.html"><img src="./assets/images/LogoWp1.webp" alt="" /></a>
-        </figure>
-        <div class="copyright pull-right"><a>Panacee</a></div>
+    </section>
+    <!-- medical-equepment end -->
+
+    <!-- signup-section -->
+    <section class="signup-section">
+      <div class="container">
+        <div class="inner-container">
+          <div class="inner-box clearfix">
+            <div class="text pull-left">
+              <h5>Panacee Software Solution Providing Innovative Solutions</h5>
+            </div>
+            <div class="btn-box pull-right"><a href="#">Sign up</a></div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-  <!-- main-footer end -->
+    </section>
+    <!-- signup-section end -->
 
-  <!--Scroll to top-->
-  <button class="scroll-top scroll-to-target" data-target="html">
-    <span class="fa fa-arrow-up"></span>
-  </button>
+    <!-- main-footer -->
+    <footer class="main-footer style-five home-8">
+      <div class="container">
+        <div class="footer-top">
+          <div class="widget-section clearfix">
+            <div class="contact-widget footer-widget">
+              <h4 class="widget-title">Information</h4>
+              <div class="widget-content">
+                <div class="text">Janakpuri South</div>
+                <ul class="info-list">
+                  <li>
+                    Email:
+                    <a href="mailto:info@example.com">info@example.com</a>
+                  </li>
+                  <li>
+                    Phone:
+                    <a href="tel:Phone:+8801682648101">+91 9650900190</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="links-widget company-widget footer-widget">
+              <h4 class="widget-title">Company</h4>
+              <div class="widget-content">
+                <ul>
+                  <li><a href="#">About Factory</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Career</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links-widget footer-widget">
+              <h4 class="widget-title">Products</h4>
+              <div class="widget-content">
+                <ul>
+                  <li>
+                    <a href="https://mammography.panaceesoftwaresolutions.com/"
+                      >Mammography</a
+                    >
+                  </li>
+                  <li><a href="#">C-Arm</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links-widget footer-widget">
+              <h4 class="widget-title">Support</h4>
+              <div class="widget-content">
+                <ul>
+                  <li><a href="#">Legal Information</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Report Abuse</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="social-widget footer-widget">
+              <h4 class="widget-title">Get the latest from</h4>
+              <ul class="social-links">
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-slack-hash"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-dribbble"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom clearfix">
+          <figure class="footer-logo pull-left">
+            <a href="index-2.html"
+              ><img src="./assets/images/LogoWp1.webp" alt=""
+            /></a>
+          </figure>
+          <div class="copyright pull-right"><a href="#">Panacee</a></div>
+        </div>
+      </div>
+    </footer>
+    <!-- main-footer end -->
 
-  <!-- jequery plugins -->
-  <script src="./assets/js/jquery.js"></script>
-  <script src="./assets/js/popper.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
+    <!--Scroll to top-->
+    <button class="scroll-top scroll-to-target" data-target="html">
+      <span class="fa fa-arrow-up"></span>
+    </button>
 
-  <script src="./assets/js/owl.js"></script>
-  <script src="./assets/js/wow.js"></script>
-  <script src="./assets/js/validation.js"></script>
-  <script src="./assets/js/jquery.fancybox.js"></script>
-  <script src="./assets/js/appear.js"></script>
-  <script src="./assets/js/aos.js"></script>
-  <script src="./assets/js/isotope.js"></script>
-  <script src="./assets/js/jquery.countTo.js"></script>
-  <script src="./assets/js/jquery-ui.js"></script>
-  <script src="./assets/js/nav-tool.js"></script>
+    <!-- jequery plugins -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 
-  <!-- main-js -->
-  <script src="./assets/js/script.js"></script>
-</body>
-<!-- End of .page_wrapper -->
+    <script src="./assets/js/owl.js"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script src="./assets/js/validation.js"></script>
+    <script src="./assets/js/jquery.fancybox.js"></script>
+    <script src="./assets/js/appear.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/isotope.js"></script>
+    <script src="./assets/js/jquery.countTo.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/nav-tool.js"></script>
 
+    <!-- main-js -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+  <!-- End of .page_wrapper -->
 </html>
